@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        // tscのモジュール解決の方法を指定
+        "moduleResolution": "Node",
+        "lib": [
+            "ESNext",
+            "ESNext.AsyncIterable",
+            "DOM"
+        ],
+        "esModuleInterop": true,
+        "allowJs": true,
+        "sourceMap": true,
+        "strict": false,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "experimentalDecorators": true,
+        "resolveJsonModule": true,
+        "allowSyntheticDefaultImports": true,
+        "types": [
+            "@types/node"
+        ],
+        "typeRoots": []
+    },
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
